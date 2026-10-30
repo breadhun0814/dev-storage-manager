@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools==80.9.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dev-storage-manager"
+version = "0.2.0"
+description = "로컬 개발 프로젝트 읽기 전용 저장공간 분석기"
+requires-python = ">=3.12,<3.13"
+dependencies = ["PySide6==6.10.2"]
+
+[project.gui-scripts]
+dev-storage-manager = "dev_storage_manager.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
