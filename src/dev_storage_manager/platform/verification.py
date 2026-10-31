@@ -1,5 +1,5 @@
 """Startup/worker smoke verification using only self-created temporary data."""
-from dev_storage_manager.i18n import tr
+from dev_storage_manager.i18n import tr, get_language
 import json
 from pathlib import Path
 import tempfile
@@ -32,7 +32,7 @@ def verify_startup(app, report_path: Path):
         partial_model.set_result(Result(str(demo), status="incomplete", folders=[Folder(str(demo))],
                                         issues=[Issue(str(demo), tr("표시 자체 검사 · 실제 권한 거부 아님"), True)]))
         partial_unknown = partial_model.data(partial_model.index(0, 1)) == "—" and partial_model.data(partial_model.index(0, 2)) == "—"
-        root = Path(temporary) / tr('한글 시험 프로젝트')
+        root = Path(temporary) / '한글 Việt 日本語 中文 시험 프로젝트'
         root.mkdir()
         (root / "pyproject.toml").write_bytes(b"[project]\nname = 'fixture'\n")
         (root / "source.py").write_bytes(b"fixture = 42\n")
@@ -141,7 +141,10 @@ def verify_startup(app, report_path: Path):
                       and outcome_dialog.headline.text() == tr("실행 전 취소"))
             outcome_dialog.reject()
         from dev_storage_manager.platform.diagnostics import runtime_info
-        record = {"passed": passed, "runtime": runtime_info(), "analysis_status": result.status if result else None,
+        record = {"passed": passed, "runtime": runtime_info(), "language": get_language(),
+                  "window_title": window.windowTitle(), "add_folder_label": window.add.text(),
+                  "english_fallback_sample": tr("휴지통 작업 실패/취소 또는 결과 미확정"),
+                  "analysis_status": result.status if result else None,
                   "files": result.files if result else None,
                   "logical_bytes": result.size if result else None,
                   "ui_folder_rows": window.folder_proxy.rowCount(),

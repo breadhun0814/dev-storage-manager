@@ -3,7 +3,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language: ko\n"
 
-#: src/dev_storage_manager/ui/main_window.py:1078
+#: src/dev_storage_manager/ui/main_window.py:1080
 msgid "\n\n후보는 삭제 가능 판정이 아닙니다. 폴더 이름만으로 후보를 만들지 않습니다."
 msgstr ""
 
@@ -15,11 +15,11 @@ msgstr ""
 msgid "\n생성된 시험 폴더: "
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:1420
+#: src/dev_storage_manager/ui/main_window.py:1426
 msgid " · 검색 필터 적용 중"
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:1002
+#: src/dev_storage_manager/ui/main_window.py:1004
 msgid " · 아래는 이전 저장 결과입니다.\n"
 msgstr ""
 
@@ -71,7 +71,7 @@ msgstr ""
 msgid "Gradle 빌드 후보"
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:1395
+#: src/dev_storage_manager/ui/main_window.py:1401
 msgid "JSON 보고서 (*.json)"
 msgstr ""
 
@@ -103,7 +103,7 @@ msgstr ""
 msgid "Python 버전과 의존성 기록을 확인한 뒤 python -m venv 및 프로젝트 설치 절차를 사용하세요. 자동 실행하지 않습니다."
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:673
+#: src/dev_storage_manager/ui/main_window.py:675
 msgid "Python 소스"
 msgstr ""
 
@@ -111,15 +111,15 @@ msgstr ""
 msgid "Python 실행 캐시"
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:685
+#: src/dev_storage_manager/ui/main_window.py:687
 msgid "Windows 휴지통에서 복원"
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:526
+#: src/dev_storage_manager/ui/main_window.py:528
 msgid "Windows 휴지통에서 복원하는 방법 보기"
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:685
+#: src/dev_storage_manager/ui/main_window.py:687
 msgid "Windows 휴지통을 열고 원래 위치와 삭제 시간을 확인한 뒤 '복원'을 선택하세요.\n미확정 결과는 원래 경로와 휴지통을 직접 확인하세요. 복원 결과는 다시 분석해서 확인할 수 있습니다.\n앱은 자동 복원을 제공하지 않으며 휴지통을 비우지 않습니다. 휴지통을 이미 비웠거나 Windows가 항목을 제거했다면 앱에서 복구할 수 없습니다."
 msgstr ""
 
@@ -171,7 +171,7 @@ msgstr ""
 msgid "pytest 테스트 캐시 휴지통"
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:757
+#: src/dev_storage_manager/ui/main_window.py:759
 msgid "{start:,}–{end:,} / {scope} {total:,}개"
 msgstr ""
 
@@ -179,23 +179,23 @@ msgstr ""
 msgid "{state} · {count:,}개 표시 · 최대 {limit:,}개\n분석 이후 달라졌을 수 있습니다. 폴더의 하위 포함 크기는 분석 표에서 확인하세요."
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:1060
+#: src/dev_storage_manager/ui/main_window.py:1062
 msgid "{status} · {known} · 전체 크기/파일 수 미확인 · 오류/제외 {issues:,}건"
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:1057
+#: src/dev_storage_manager/ui/main_window.py:1059
 msgid "{status} · 확인된 {files:,}개 파일 · {size} · 오류/제외 {issues:,}건"
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:461
+#: src/dev_storage_manager/ui/main_window.py:463
 msgid "① 검토할 후보 선택"
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:1085
+#: src/dev_storage_manager/ui/main_window.py:1087
 msgid "② 선택한 후보의 포함 파일 검토"
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:500 src/dev_storage_manager/ui/main_window.py:1085
+#: src/dev_storage_manager/ui/main_window.py:502 src/dev_storage_manager/ui/main_window.py:1087
 msgid "② 후보를 선택한 뒤 포함 파일 검토"
 msgstr ""
 
@@ -207,7 +207,7 @@ msgstr ""
 msgid "가상환경·의존성·빌드 결과 정리는 지원하지 않습니다."
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:1373
+#: src/dev_storage_manager/ui/main_window.py:1379
 msgid "각 행은 하위 포함 값입니다. 행끼리 합산하지 마세요.\n변화는 휴지통 이동량이나 실제 여유 공간 증가량을 의미하지 않습니다."
 msgstr ""
 
@@ -219,7 +219,7 @@ msgstr ""
 msgid "개발 저장공간 관리자"
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:671
+#: src/dev_storage_manager/ui/main_window.py:673
 msgid "개발 저장공간 관리자 · 시험 버전\n앱 버전: {app}\nPython: {python}\nPySide6: {qt}\n운영체제: {platform}\n실행 방식: {mode}\n\n회원가입·클라우드 업로드 없이 로컬에서 동작합니다.\n정리 지원은 실행 세션의 환경 시험과 후보별 검증 결과에 따릅니다."
 msgstr ""
 
@@ -231,23 +231,23 @@ msgstr ""
 msgid "개별 검증 통과. 실행 직전에 다시 검증합니다."
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:1064
+#: src/dev_storage_manager/ui/main_window.py:1066
 msgid "개별 검증 후 실행 가능"
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:757
+#: src/dev_storage_manager/ui/main_window.py:759
 msgid "검색 결과"
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:1424
+#: src/dev_storage_manager/ui/main_window.py:1430
 msgid "검색 결과: 보관한 {total:,}개 중 {shown:,}개"
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:739
+#: src/dev_storage_manager/ui/main_window.py:741
 msgid "검색 결과가 없습니다. 검색어를 비우거나 이력을 새로고침하세요."
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:695
+#: src/dev_storage_manager/ui/main_window.py:697
 msgid "검색 중…"
 msgstr ""
 
@@ -259,7 +259,7 @@ msgstr ""
 msgid "검색·파일 행 선택은 내용 확인용입니다. 이동 대상은 위의 후보 폴더 전체이며 개별 파일 선택 삭제가 아닙니다."
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:1117
+#: src/dev_storage_manager/ui/main_window.py:1119
 msgid "검토 실패"
 msgstr ""
 
@@ -279,7 +279,7 @@ msgstr ""
 msgid "검토가 취소되었습니다."
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:1239
+#: src/dev_storage_manager/ui/main_window.py:1245
 msgid "결과"
 msgstr ""
 
@@ -287,15 +287,15 @@ msgstr ""
 msgid "결과 기록을 확인하지 못했습니다."
 msgstr ""
 
-#: src/dev_storage_manager/ui/cleanup_result_dialog.py:19 src/dev_storage_manager/ui/main_window.py:740
+#: src/dev_storage_manager/ui/cleanup_result_dialog.py:19 src/dev_storage_manager/ui/main_window.py:742
 msgid "결과 미확정"
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:921
+#: src/dev_storage_manager/ui/main_window.py:923
 msgid "결과 읽기 또는 저장 작업이 진행 중입니다. 완료될 때까지 기다려주세요."
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:1006
+#: src/dev_storage_manager/ui/main_window.py:1008
 msgid "결과 읽기 실패: "
 msgstr ""
 
@@ -307,7 +307,7 @@ msgstr ""
 msgid "결과를 읽지 못한 것은 성공·실패·원본 보존 또는 이력 없음을 증명하지 않습니다."
 msgstr ""
 
-#: src/dev_storage_manager/ui/comparison_model.py:7 src/dev_storage_manager/ui/main_window.py:362
+#: src/dev_storage_manager/ui/comparison_model.py:7 src/dev_storage_manager/ui/main_window.py:364
 msgid "경로"
 msgstr ""
 
@@ -315,7 +315,7 @@ msgstr ""
 msgid "관리 · 도구"
 msgstr ""
 
-#: src/dev_storage_manager/ui/cleanup_result_dialog.py:32 src/dev_storage_manager/ui/main_window.py:788 src/dev_storage_manager/ui/main_window.py:789
+#: src/dev_storage_manager/ui/cleanup_result_dialog.py:32 src/dev_storage_manager/ui/main_window.py:790 src/dev_storage_manager/ui/main_window.py:791
 msgid "관측 실패"
 msgstr ""
 
@@ -327,7 +327,7 @@ msgstr ""
 msgid "근거·주의·실행 조건"
 msgstr ""
 
-#: src/dev_storage_manager/ui/cleanup_result_dialog.py:40 src/dev_storage_manager/ui/main_window.py:753
+#: src/dev_storage_manager/ui/cleanup_result_dialog.py:40 src/dev_storage_manager/ui/main_window.py:755
 msgid "기록 없음"
 msgstr ""
 
@@ -339,7 +339,7 @@ msgstr ""
 msgid "기본 캐시 구조 이외의 하위 폴더가 있습니다."
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:1404
+#: src/dev_storage_manager/ui/main_window.py:1410
 msgid "기존 파일은 덮어쓰지 않습니다. 새 파일명을 사용하세요.\n"
 msgstr ""
 
@@ -347,7 +347,7 @@ msgstr ""
 msgid "논리적 바이트"
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:1386
+#: src/dev_storage_manager/ui/main_window.py:1392
 msgid "논리적 크기와 파일 수 변화가 없습니다. 내용 동일성을 뜻하지는 않습니다."
 msgstr ""
 
@@ -355,7 +355,7 @@ msgstr ""
 msgid "다른 개발 저장공간 관리자 창을 먼저 닫아주세요."
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:570
+#: src/dev_storage_manager/ui/main_window.py:572
 msgid "다음 페이지"
 msgstr ""
 
@@ -363,7 +363,7 @@ msgstr ""
 msgid "단위: 1 KB = 1,024 B. 논리적 크기는 실제 디스크 사용량과 다를 수 있습니다. 제외 경로는 집계하지 않으며 분석은 실시간 스냅샷이 아닙니다."
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:1061
+#: src/dev_storage_manager/ui/main_window.py:1063
 msgid "단위: 1 KB = 1,024 B. 정확한 바이트는 용량 칸의 툴팁에서 확인하세요."
 msgstr ""
 
@@ -371,11 +371,11 @@ msgstr ""
 msgid "닫기"
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:740
+#: src/dev_storage_manager/ui/main_window.py:742
 msgid "대기"
 msgstr ""
 
-#: src/dev_storage_manager/ui/cleanup_result_dialog.py:20 src/dev_storage_manager/ui/main_window.py:744
+#: src/dev_storage_manager/ui/cleanup_result_dialog.py:20 src/dev_storage_manager/ui/main_window.py:746
 msgid "대기 기록"
 msgstr ""
 
@@ -399,7 +399,7 @@ msgstr ""
 msgid "드라이브 루트나 .git 내부에는 시험 자료를 만들 수 없습니다."
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:1281 src/dev_storage_manager/ui/main_window.py:1333 src/dev_storage_manager/ui/main_window.py:246
+#: src/dev_storage_manager/ui/main_window.py:1287 src/dev_storage_manager/ui/main_window.py:1339 src/dev_storage_manager/ui/main_window.py:246
 msgid "등록 목록에서 제거된 프로젝트입니다."
 msgstr ""
 
@@ -455,7 +455,7 @@ msgstr ""
 msgid "링크이거나 폴더가 아닌 경로는 열 수 없습니다."
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:362
+#: src/dev_storage_manager/ui/main_window.py:364
 msgid "마지막 분석"
 msgstr ""
 
@@ -471,11 +471,11 @@ msgstr ""
 msgid "목록 검색·정렬 중…"
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:1064
+#: src/dev_storage_manager/ui/main_window.py:1066
 msgid "목록 검토만 · 실행 미지원"
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:1154
+#: src/dev_storage_manager/ui/main_window.py:1156
 msgid "목록 읽기 완료"
 msgstr ""
 
@@ -491,7 +491,7 @@ msgstr ""
 msgid "목록에서 제거"
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:887
+#: src/dev_storage_manager/ui/main_window.py:889
 msgid "목록에서 제거했습니다. 실제 폴더는 변경하지 않았습니다."
 msgstr ""
 
@@ -507,11 +507,11 @@ msgstr ""
 msgid "미분석"
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:1247
+#: src/dev_storage_manager/ui/main_window.py:1253
 msgid "미실행"
 msgstr ""
 
-#: src/dev_storage_manager/persistence/report.py:32 src/dev_storage_manager/ui/main_window.py:1051 src/dev_storage_manager/ui/main_window.py:1052
+#: src/dev_storage_manager/persistence/report.py:32 src/dev_storage_manager/ui/main_window.py:1053 src/dev_storage_manager/ui/main_window.py:1054
 msgid "미확인"
 msgstr ""
 
@@ -523,27 +523,31 @@ msgstr ""
 msgid "바깥 경로 탐색과 링크 루트 등록을 차단했습니다."
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:673
+#: src/dev_storage_manager/ui/main_window.py:675
 msgid "배포 EXE"
+msgstr ""
+
+#: src/dev_storage_manager/ui/language_dialog.py:21
+msgid "번역이 없는 문구는 영어로 표시합니다. 파일 이름·경로와 기존 기록은 원문을 유지합니다."
 msgstr ""
 
 #: src/dev_storage_manager/ui/coverage_text.py:4
 msgid "범위 미확인"
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:1393
+#: src/dev_storage_manager/ui/main_window.py:1399
 msgid "보고서"
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:1404
+#: src/dev_storage_manager/ui/main_window.py:1410
 msgid "보고서 저장 실패"
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:1401
+#: src/dev_storage_manager/ui/main_window.py:1407
 msgid "보고서를 저장하고 있습니다. 화면 검색은 계속 사용할 수 있습니다."
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:1403
+#: src/dev_storage_manager/ui/main_window.py:1409
 msgid "보고서를 저장했습니다: "
 msgstr ""
 
@@ -567,7 +571,7 @@ msgstr ""
 msgid "부모/자식 또는 중복 대상은 함께 실행할 수 없습니다."
 msgstr ""
 
-#: src/dev_storage_manager/persistence/report.py:27 src/dev_storage_manager/ui/folder_model.py:13 src/dev_storage_manager/ui/main_window.py:461
+#: src/dev_storage_manager/persistence/report.py:27 src/dev_storage_manager/ui/folder_model.py:13 src/dev_storage_manager/ui/main_window.py:463
 msgid "분류"
 msgstr ""
 
@@ -599,11 +603,11 @@ msgstr ""
 msgid "분석 시점에 이 폴더의 읽은 범위에서 확인한 논리적 합계입니다. 행끼리 더하면 하위를 중복 계산합니다."
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:947 src/dev_storage_manager/ui/strings.py:4
+#: src/dev_storage_manager/ui/main_window.py:949 src/dev_storage_manager/ui/strings.py:4
 msgid "분석 실패"
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:946
+#: src/dev_storage_manager/ui/main_window.py:948
 msgid "분석 실패 · 현재 결과 없음 · "
 msgstr ""
 
@@ -615,11 +619,11 @@ msgstr ""
 msgid "분석 이후 대상 식별 정보 또는 내용 목록이 변경되었습니다. 다시 분석하세요."
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:340 src/dev_storage_manager/ui/main_window.py:1347
+#: src/dev_storage_manager/ui/main_window.py:340 src/dev_storage_manager/ui/main_window.py:1353
 msgid "분석 제외 목록"
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:1333
+#: src/dev_storage_manager/ui/main_window.py:1339
 msgid "분석 제한"
 msgstr ""
 
@@ -627,11 +631,11 @@ msgstr ""
 msgid "분석 중"
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:931
+#: src/dev_storage_manager/ui/main_window.py:933
 msgid "분석 중 · {p0:,}개 파일 · {p1}\n{p2}"
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:895
+#: src/dev_storage_manager/ui/main_window.py:897
 msgid "분석 중입니다. 완료 후 이곳에 후보 또는 후보를 찾지 못한 이유를 표시합니다."
 msgstr ""
 
@@ -639,7 +643,7 @@ msgstr ""
 msgid "분석에 없는 새 폴더 · 다시 분석한 뒤 열 수 있음"
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:945
+#: src/dev_storage_manager/ui/main_window.py:947
 msgid "분석을 완료하지 못했습니다. 오류를 확인하고 다시 분석하세요. 현재 선택 가능한 정리 후보가 없습니다."
 msgstr ""
 
@@ -647,7 +651,7 @@ msgstr ""
 msgid "분석이 완료되지 않아 현재 확인된 정리 후보가 없습니다. 후보가 없다고 확정할 수 없습니다. '오류·제외 범위'를 확인하고 다시 분석하세요."
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:484
+#: src/dev_storage_manager/ui/main_window.py:486
 msgid "분석한 폴더별 용량 보기"
 msgstr ""
 
@@ -655,11 +659,11 @@ msgstr ""
 msgid "분석한 폴더에서 파일을 찾지 못했습니다. 선택한 프로젝트 경로를 확인하세요. 현재 선택하거나 정리할 항목은 없습니다."
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:390
+#: src/dev_storage_manager/ui/main_window.py:392
 msgid "분석할 프로젝트를 선택하세요"
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:1364
+#: src/dev_storage_manager/ui/main_window.py:1370
 msgid "비교 제한"
 msgstr ""
 
@@ -695,7 +699,7 @@ msgstr ""
 msgid "상위 폴더"
 msgstr ""
 
-#: src/dev_storage_manager/ui/issue_model.py:6 src/dev_storage_manager/ui/main_window.py:362 src/dev_storage_manager/ui/main_window.py:548
+#: src/dev_storage_manager/ui/issue_model.py:6 src/dev_storage_manager/ui/main_window.py:364 src/dev_storage_manager/ui/main_window.py:550
 msgid "상태"
 msgstr ""
 
@@ -703,19 +707,19 @@ msgstr ""
 msgid "상태 / 안내"
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:1396
+#: src/dev_storage_manager/ui/main_window.py:1402
 msgid "새 보고서 파일 저장"
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:840
+#: src/dev_storage_manager/ui/main_window.py:842
 msgid "새 시험 폴더에 고정 자료를 만들고 실제 분석합니다. 정리는 자동 실행하지 않습니다."
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:836
+#: src/dev_storage_manager/ui/main_window.py:838
 msgid "새 시험 프로젝트를 만들 상위 폴더 선택 · 기존 파일은 덮어쓰지 않습니다"
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:590 src/dev_storage_manager/ui/main_window.py:1026
+#: src/dev_storage_manager/ui/main_window.py:592 src/dev_storage_manager/ui/main_window.py:1028
 msgid "새로 분석하면 큰 파일을 확인할 수 있습니다. 이 목록은 삭제 후보가 아닙니다."
 msgstr ""
 
@@ -731,7 +735,7 @@ msgstr ""
 msgid "선택 프로젝트 분석"
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:1298
+#: src/dev_storage_manager/ui/main_window.py:1304
 msgid "선택한 정리 작업: "
 msgstr ""
 
@@ -739,15 +743,15 @@ msgstr ""
 msgid "선택한 정리 항목이 없습니다."
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:1101
+#: src/dev_storage_manager/ui/main_window.py:1103
 msgid "선택한 폴더 내용 보기"
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:1105
+#: src/dev_storage_manager/ui/main_window.py:1107
 msgid "선택한 폴더: {path}\n확인된 하위 포함 합계: {size} · 확인 {files:,}개 파일 · {scope}\n{note}"
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:1144
+#: src/dev_storage_manager/ui/main_window.py:1146
 msgid "선택한 폴더의 현재 내용을 읽고 있습니다. 원본은 변경하지 않습니다."
 msgstr ""
 
@@ -755,7 +759,7 @@ msgstr ""
 msgid "선택한 하위 폴더 열기"
 msgstr ""
 
-#: src/dev_storage_manager/__main__.py:32
+#: src/dev_storage_manager/__main__.py:37
 msgid "시작 실패"
 msgstr ""
 
@@ -775,7 +779,7 @@ msgstr ""
 msgid "시험 원본 보존 확인에 실패했습니다."
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:874
+#: src/dev_storage_manager/ui/main_window.py:876
 msgid "시험 자료 생성/분석을 완료하지 못했습니다. 남은 새 폴더 위치를 확인하세요."
 msgstr ""
 
@@ -787,7 +791,7 @@ msgstr ""
 msgid "시험 자료 생성이 취소되었습니다."
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:492
+#: src/dev_storage_manager/ui/main_window.py:494
 msgid "시험 자료로 사용 흐름 익히기"
 msgstr ""
 
@@ -803,7 +807,7 @@ msgstr ""
 msgid "시험 캐시의 휴지통 영수증과 원래 경로 소멸을 확인했습니다."
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:863
+#: src/dev_storage_manager/ui/main_window.py:865
 msgid "시험 폴더를 만들었지만 분석이 완료되지 않았거나 후보를 확인하지 못했습니다. 오류·제외 범위와 생성 위치를 확인하고 다시 분석하세요."
 msgstr ""
 
@@ -811,15 +815,15 @@ msgstr ""
 msgid "시험 프로젝트 만들고 분석"
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:875
+#: src/dev_storage_manager/ui/main_window.py:877
 msgid "시험 프로젝트 오류"
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:873
+#: src/dev_storage_manager/ui/main_window.py:875
 msgid "시험 프로젝트를 완료하지 못했습니다. 생성된 새 폴더 위치와 오류를 확인하세요."
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:1215
+#: src/dev_storage_manager/ui/main_window.py:1217
 msgid "시험을 통과한 유형: {kinds} · 각 후보의 내용 검증과 직접 확인이 필요합니다."
 msgstr ""
 
@@ -831,11 +835,11 @@ msgstr ""
 msgid "실제 경로가 요청 경로와 다릅니다: "
 msgstr ""
 
-#: src/dev_storage_manager/ui/cleanup_result_dialog.py:19 src/dev_storage_manager/ui/main_window.py:740 src/dev_storage_manager/ui/main_window.py:1247
+#: src/dev_storage_manager/ui/cleanup_result_dialog.py:19 src/dev_storage_manager/ui/main_window.py:742 src/dev_storage_manager/ui/main_window.py:1253
 msgid "실패"
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:548
+#: src/dev_storage_manager/ui/main_window.py:550
 msgid "실패 이유 / 결과"
 msgstr ""
 
@@ -843,11 +847,11 @@ msgstr ""
 msgid "실패 이유 / 결과: "
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:461
+#: src/dev_storage_manager/ui/main_window.py:463
 msgid "실행 가능 여부"
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:548
+#: src/dev_storage_manager/ui/main_window.py:550
 msgid "실행 시간"
 msgstr ""
 
@@ -855,23 +859,23 @@ msgstr ""
 msgid "실행 시간: "
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:753
+#: src/dev_storage_manager/ui/main_window.py:755
 msgid "실행 시간: {time}\n원래 경로: {path}\n논리적 파일 크기: {size}\n항목 결과: {status}\n전체 작업 상태: {job_status}\n실패 이유 / 결과: {reason}\n휴지통 영수증 경로: {destination}\n작업 ID: {job}"
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:564
+#: src/dev_storage_manager/ui/main_window.py:566
 msgid "실행 이력을 선택하면 이동 확인 크기와 관측한 디스크 여유 공간을 별도로 표시합니다."
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:739
+#: src/dev_storage_manager/ui/main_window.py:741
 msgid "실행 이력이 없습니다. 앱은 자동 복원을 제공하지 않으며 Windows 휴지통을 직접 확인해야 합니다."
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:1090
+#: src/dev_storage_manager/ui/main_window.py:1092
 msgid "실행 자격이 없습니다. 해당 유형의 환경 시험과 내용 검증이 필요합니다."
 msgstr ""
 
-#: src/dev_storage_manager/platform/verification.py:141 src/dev_storage_manager/ui/cleanup_result_dialog.py:20 src/dev_storage_manager/ui/main_window.py:740
+#: src/dev_storage_manager/platform/verification.py:141 src/dev_storage_manager/ui/cleanup_result_dialog.py:20 src/dev_storage_manager/ui/main_window.py:742
 msgid "실행 전 취소"
 msgstr ""
 
@@ -887,15 +891,15 @@ msgstr ""
 msgid "실행 제한 · '근거·주의·실행 조건' 탭에서 이유를 확인하세요."
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:1216
+#: src/dev_storage_manager/ui/main_window.py:1218
 msgid "실행 조건 미충족"
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:740
+#: src/dev_storage_manager/ui/main_window.py:742
 msgid "실행 중"
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:1285
+#: src/dev_storage_manager/ui/main_window.py:1291
 msgid "실행 직전 다시 검증하고 휴지통으로 이동합니다. Windows 작업이 시작된 뒤에는 취소가 늦게 반영될 수 있습니다."
 msgstr ""
 
@@ -903,7 +907,7 @@ msgstr ""
 msgid "실행 직전에 취소되었습니다."
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:412
+#: src/dev_storage_manager/ui/main_window.py:414
 msgid "아직 분석 결과가 없습니다."
 msgstr ""
 
@@ -931,7 +935,11 @@ msgstr ""
 msgid "앱 중단으로 결과 미확정. 원래 경로와 Windows 휴지통을 직접 확인하세요."
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:861
+#: src/dev_storage_manager/ui/language_dialog.py:13
+msgid "앱 표시 언어를 선택하세요. 저장 후 앱을 다시 실행하면 적용됩니다."
+msgstr ""
+
+#: src/dev_storage_manager/ui/main_window.py:863
 msgid "앱이 만든 시험 프로젝트입니다. __pycache__ 후보를 선택하고 '② 포함 파일 검토'를 누르세요. 정리에는 환경 시험과 직접 확인이 필요합니다."
 msgstr ""
 
@@ -939,11 +947,23 @@ msgstr ""
 msgid "앱이 만든 시험 프로젝트입니다. 기존 프로젝트 파일은 복사하지 않았습니다.\n이 폴더의 __pycache__는 포함 파일 검토를 익히기 위한 정리 후보입니다.\n원본 demo_owned.py와 pyproject.toml, .git/KEEP.txt는 정리 대상이 아닙니다.\n정리는 일반 프로젝트와 같은 환경 시험·내용 검증·직접 확인을 통과해야 합니다.\n이 프로그램은 원본을 실행하거나 재설치 명령을 자동 실행하지 않습니다.\n휴지통 이동 후에는 결과와 이력을 확인하고 다시 분석하세요.\n복원은 Windows 휴지통에서 직접 하며 앱은 자동 복원/비우기를 제공하지 않습니다.\n시험 폴더를 목록에서 제거해도 실제 폴더는 남습니다.\n"
 msgstr ""
 
+#: src/dev_storage_manager/ui/language_dialog.py:37
+msgid "언어 설정 저장됨"
+msgstr ""
+
+#: src/dev_storage_manager/ui/language_dialog.py:37
+msgid "언어 설정을 저장했습니다. 앱을 닫고 다시 실행하세요. 진행 중 작업은 자동 종료하지 않습니다."
+msgstr ""
+
+#: src/dev_storage_manager/ui/language_dialog.py:35
+msgid "언어 저장 실패"
+msgstr ""
+
 #: src/dev_storage_manager/ui/cleanup_result_dialog.py:41
 msgid "없음"
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:397
+#: src/dev_storage_manager/ui/main_window.py:399
 msgid "오류 · 제외 경로"
 msgstr ""
 
@@ -951,11 +971,11 @@ msgstr ""
 msgid "오류/제외 범위가 달라 직접 비교할 수 없습니다."
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:523
+#: src/dev_storage_manager/ui/main_window.py:525
 msgid "오류·제외 범위"
 msgstr ""
 
-#: src/dev_storage_manager/ui/cleanup_result_dialog.py:20 src/dev_storage_manager/ui/main_window.py:745
+#: src/dev_storage_manager/ui/cleanup_result_dialog.py:20 src/dev_storage_manager/ui/main_window.py:747
 msgid "완료 미확정"
 msgstr ""
 
@@ -967,7 +987,7 @@ msgstr ""
 msgid "완료된 전체 분석이 필요합니다. 취소/불완전 결과는 정리에 사용할 수 없습니다."
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:548
+#: src/dev_storage_manager/ui/main_window.py:550
 msgid "원래 경로"
 msgstr ""
 
@@ -983,11 +1003,11 @@ msgstr ""
 msgid "원본과 연결된 캐시 근거가 있으나 내부에 사용자 파일이 있을 수 있습니다. 정리 전 전체 포함 파일과 변경 여부 검증이 필요합니다."
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:1064
+#: src/dev_storage_manager/ui/main_window.py:1066
 msgid "유형별 환경 확인 필요"
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:1041
+#: src/dev_storage_manager/ui/main_window.py:1043
 msgid "이 분석 결과에는 큰 파일 정보가 없습니다. 다시 분석하면 표시됩니다."
 msgstr ""
 
@@ -999,11 +1019,11 @@ msgstr ""
 msgid "이 작업 이력 보기"
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:1297
+#: src/dev_storage_manager/ui/main_window.py:1303
 msgid "이 작업에서 경로·실패 이유 검색"
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:790
+#: src/dev_storage_manager/ui/main_window.py:792
 msgid "이 작업에서 휴지통 이동을 확인한 논리적 크기: {moved}\n관측한 디스크 여유 공간 — 실행 전: {before} / 실행 후: {after}\n휴지통 이동은 즉시 여유 공간이 늘어났음을 의미하지 않습니다."
 msgstr ""
 
@@ -1011,15 +1031,15 @@ msgstr ""
 msgid "이 작업의 전체 이동 크기를 확인할 수 없습니다."
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:1090
+#: src/dev_storage_manager/ui/main_window.py:1092
 msgid "이 캐시 유형의 환경 시험을 통과했습니다. 포함 파일과 내용·변경 여부 검증이 필요합니다."
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:1177
+#: src/dev_storage_manager/ui/main_window.py:1179
 msgid "이 후보 유형 또는 내용은 아직 정리 실행을 지원하지 않습니다. 파일 목록만 검토할 수 있습니다."
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:1175
+#: src/dev_storage_manager/ui/main_window.py:1177
 msgid "이 후보 유형의 환경 시험을 통과하지 못했습니다. 유형별 점검 결과를 확인하세요."
 msgstr ""
 
@@ -1031,11 +1051,11 @@ msgstr ""
 msgid "이력 데이터의 경로·상태·크기 형식을 확인할 수 없습니다."
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:712
+#: src/dev_storage_manager/ui/main_window.py:714
 msgid "이력 불러오는 중…"
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:571
+#: src/dev_storage_manager/ui/main_window.py:573
 msgid "이력 새로고침"
 msgstr ""
 
@@ -1043,15 +1063,15 @@ msgstr ""
 msgid "이력 조회 범위 또는 검색어가 올바르지 않습니다."
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:766
+#: src/dev_storage_manager/ui/main_window.py:768
 msgid "이력 조회 실패: "
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:765
+#: src/dev_storage_manager/ui/main_window.py:767
 msgid "이력을 불러오지 못했습니다. 기록이 없거나 작업이 성공했다는 뜻이 아닙니다. 새로고침으로 다시 확인하세요."
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:558
+#: src/dev_storage_manager/ui/main_window.py:560
 msgid "이력을 선택하면 전체 원래 경로·실패 이유·작업 상태를 표시합니다."
 msgstr ""
 
@@ -1071,7 +1091,7 @@ msgstr ""
 msgid "이유"
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:1384
+#: src/dev_storage_manager/ui/main_window.py:1390
 msgid "이전 결과 비교가 끝났습니다. 변경 폴더: {count:,}개"
 msgstr ""
 
@@ -1079,7 +1099,7 @@ msgstr ""
 msgid "이전 분석에는 큰 파일 정보가 없습니다. 다시 분석한 뒤 내보내세요."
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:1370
+#: src/dev_storage_manager/ui/main_window.py:1376
 msgid "이전 완료 결과 대비 · 논리적 크기 변화"
 msgstr ""
 
@@ -1095,7 +1115,7 @@ msgstr ""
 msgid "이전 크기"
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:569
+#: src/dev_storage_manager/ui/main_window.py:571
 msgid "이전 페이지"
 msgstr ""
 
@@ -1107,7 +1127,7 @@ msgstr ""
 msgid "일반 파일이 아닌 항목 제외"
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:741
+#: src/dev_storage_manager/ui/main_window.py:743
 msgid "일부 결과가 서로 다름"
 msgstr ""
 
@@ -1127,7 +1147,7 @@ msgstr ""
 msgid "읽기 실패 · 불완전"
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:1154
+#: src/dev_storage_manager/ui/main_window.py:1156
 msgid "읽기 실패 포함"
 msgstr ""
 
@@ -1167,11 +1187,11 @@ msgstr ""
 msgid "읽은 범위 완료"
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:1201
+#: src/dev_storage_manager/ui/main_window.py:1203
 msgid "임시 프로젝트로 정리 환경을 시험하고 있습니다."
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:1239
+#: src/dev_storage_manager/ui/main_window.py:1245
 msgid "자세한 원인"
 msgstr ""
 
@@ -1195,7 +1215,7 @@ msgstr ""
 msgid "작업 중단 · 확인 필요"
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:1431
+#: src/dev_storage_manager/ui/main_window.py:1437
 msgid "작업 중단 또는 저장이 끝난 후 창을 다시 닫아주세요."
 msgstr ""
 
@@ -1219,31 +1239,35 @@ msgstr ""
 msgid "장치 네임스페이스는 프로젝트 경로로 사용할 수 없습니다."
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:1361
+#: src/dev_storage_manager/ui/language_dialog.py:25
+msgid "저장"
+msgstr ""
+
+#: src/dev_storage_manager/ui/main_window.py:1367
 msgid "저장된 결과를 읽고 이전 완료 결과와 비교하고 있습니다."
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:1005
+#: src/dev_storage_manager/ui/main_window.py:1007
 msgid "저장된 결과를 읽지 못했습니다. 다시 분석하거나 오류를 확인하세요."
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:972 src/dev_storage_manager/ui/main_window.py:990 src/dev_storage_manager/ui/main_window.py:1393 src/dev_storage_manager/ui/main_window.py:124
+#: src/dev_storage_manager/ui/main_window.py:974 src/dev_storage_manager/ui/main_window.py:992 src/dev_storage_manager/ui/main_window.py:1399 src/dev_storage_manager/ui/main_window.py:124
 msgid "저장된 분석 결과가 없습니다."
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:974
+#: src/dev_storage_manager/ui/main_window.py:976
 msgid "저장된 분석 결과를 읽고 있습니다. 완료 후 결과를 표시합니다."
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:975
+#: src/dev_storage_manager/ui/main_window.py:977
 msgid "저장된 분석 결과를 읽고 있습니다. 화면 검색은 계속 사용할 수 있습니다."
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:757
+#: src/dev_storage_manager/ui/main_window.py:759
 msgid "전체"
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:1167
+#: src/dev_storage_manager/ui/main_window.py:1169
 msgid "전체 경로: {path}\n크기: {size} · 분석 시점의 기록이며 삭제 대상 선택이 아닙니다."
 msgstr ""
 
@@ -1255,7 +1279,7 @@ msgstr ""
 msgid "전체 분석 상태"
 msgstr ""
 
-#: src/dev_storage_manager/ui/cleanup_result_dialog.py:52 src/dev_storage_manager/ui/main_window.py:538
+#: src/dev_storage_manager/ui/cleanup_result_dialog.py:52 src/dev_storage_manager/ui/main_window.py:540
 msgid "전체 이력 보기"
 msgstr ""
 
@@ -1263,7 +1287,7 @@ msgstr ""
 msgid "전체 작업 상태와 항목 결과를 확인할 수 없습니다."
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:533 src/dev_storage_manager/ui/main_window.py:1297
+#: src/dev_storage_manager/ui/main_window.py:535 src/dev_storage_manager/ui/main_window.py:1303
 msgid "전체 정리 이력에서 경로·실패 이유 검색"
 msgstr ""
 
@@ -1275,11 +1299,11 @@ msgstr ""
 msgid "전체 확인 파일 수"
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:1267
+#: src/dev_storage_manager/ui/main_window.py:1273
 msgid "점검 결과 복사"
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:1226
+#: src/dev_storage_manager/ui/main_window.py:1232
 msgid "점검 기록이 없습니다. 관리·도구에서 '정리 환경 확인'을 먼저 실행하세요."
 msgstr ""
 
@@ -1287,11 +1311,11 @@ msgstr ""
 msgid "점검 중단"
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:1260
+#: src/dev_storage_manager/ui/main_window.py:1266
 msgid "점검 행을 선택하면 전체 원인과 기술 정보를 확인할 수 있습니다."
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:1264
+#: src/dev_storage_manager/ui/main_window.py:1270
 msgid "점검은 앱이 새로 만든 시험 자료만 사용합니다. 일부 통과로 개인 프로젝트 정리를 활성화하지 않습니다.\n복원은 Windows 휴지통에서 직접 확인해야 하며, 이 표는 복원 검증을 의미하지 않습니다."
 msgstr ""
 
@@ -1319,11 +1343,11 @@ msgstr ""
 msgid "정리 대상의 실행 상태를 저장하지 못했습니다."
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:1216
+#: src/dev_storage_manager/ui/main_window.py:1218
 msgid "정리 비활성 · {failed} · 자세한 원인은 관리·도구의 환경 점검 결과에서 확인하세요."
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:423
+#: src/dev_storage_manager/ui/main_window.py:425
 msgid "정리 비활성 · 이전 점검 기록은 '관리 · 도구 → 환경 점검 결과 보기'에서 확인하세요. 이번 실행에서는 다시 점검해야 합니다."
 msgstr ""
 
@@ -1331,7 +1355,7 @@ msgstr ""
 msgid "정리 시도 후 재분석 필요"
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:997
+#: src/dev_storage_manager/ui/main_window.py:999
 msgid "정리 시도 후의 이전 분석입니다. 후보를 다시 사용하려면 재분석하세요."
 msgstr ""
 
@@ -1339,7 +1363,7 @@ msgstr ""
 msgid "정리 실행 결과"
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:1312
+#: src/dev_storage_manager/ui/main_window.py:1318
 msgid "정리 실행 결과를 확인하세요. 성공·실패·미확정은 항목별 기록으로 구분합니다. 최신 상태는 다시 분석하세요."
 msgstr ""
 
@@ -1347,7 +1371,7 @@ msgstr ""
 msgid "정리 실행 전 확인 필요 · '관리 · 도구 → 정리 환경 확인'에서 앱이 만든 시험 자료로 먼저 확인하세요."
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:587
+#: src/dev_storage_manager/ui/main_window.py:589
 msgid "정리 이력"
 msgstr ""
 
@@ -1363,7 +1387,7 @@ msgstr ""
 msgid "정리 작업 완료 상태를 저장하지 못했습니다."
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:1313
+#: src/dev_storage_manager/ui/main_window.py:1319
 msgid "정리 작업 후에는 다시 분석해야 최신 후보를 확인할 수 있습니다. 작업 결과는 '정리 이력'에서 확인하세요."
 msgstr ""
 
@@ -1371,19 +1395,19 @@ msgstr ""
 msgid "정리 작업의 대상·크기·중복 기록을 확인할 수 없습니다."
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:1314
+#: src/dev_storage_manager/ui/main_window.py:1320
 msgid "정리 전 분석 시점의 큰 파일 목록입니다. 현재 상태를 확인하려면 다시 분석하세요."
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:998
+#: src/dev_storage_manager/ui/main_window.py:1000
 msgid "정리 전 저장된 큰 파일 목록입니다. 최신 상태는 다시 분석하세요."
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:1281
+#: src/dev_storage_manager/ui/main_window.py:1287
 msgid "정리 제한"
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:1194
+#: src/dev_storage_manager/ui/main_window.py:1196
 msgid "정리 환경 시험"
 msgstr ""
 
@@ -1391,11 +1415,11 @@ msgstr ""
 msgid "정리 환경 확인"
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:397
+#: src/dev_storage_manager/ui/main_window.py:399
 msgid "정리 후보"
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:1014
+#: src/dev_storage_manager/ui/main_window.py:1016
 msgid "정리 후보 {count:,}개 · 행을 선택하면 아래에 근거를 표시합니다. 환경 점검 통과는 이 목록에 후보가 있다는 뜻이 아닙니다."
 msgstr ""
 
@@ -1403,7 +1427,7 @@ msgstr ""
 msgid "정리는 로컬 고정 드라이브에서만 지원합니다. 네트워크/이동식 드라이브는 미지원입니다."
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:1091
+#: src/dev_storage_manager/ui/main_window.py:1093
 msgid "정확한 대상: {p0}\n논리적 파일 크기: {p1} · {p2:,}개 파일\n\n근거: {p3}\n\n주의: {p4}\n\n재생성 조건: {p5}\n\n현재 지원: {p6}"
 msgstr ""
 
@@ -1411,15 +1435,15 @@ msgstr ""
 msgid "제외"
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:1353
+#: src/dev_storage_manager/ui/main_window.py:1359
 msgid "제외 경로 오류"
 msgstr ""
 
-#: src/dev_storage_manager/persistence/store.py:115 src/dev_storage_manager/scanning/listing.py:47 src/dev_storage_manager/scanning/scanner.py:54
+#: src/dev_storage_manager/persistence/store.py:128 src/dev_storage_manager/scanning/listing.py:47 src/dev_storage_manager/scanning/scanner.py:54
 msgid "제외 경로는 프로젝트 내부 상대 경로여야 합니다."
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:1351
+#: src/dev_storage_manager/ui/main_window.py:1357
 msgid "제외 목록을 저장했습니다. 적용하려면 다시 분석하세요."
 msgstr ""
 
@@ -1427,7 +1451,7 @@ msgstr ""
 msgid "제외 목록이 달라 직접 비교할 수 없습니다."
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:746
+#: src/dev_storage_manager/ui/main_window.py:748
 msgid "조회 시점의 기록된 상태: {status}. 이 기록만으로 현재 진행 여부·성공·원본 보존을 단정할 수 없습니다. 이력을 새로고침하고 기록 오류가 있었다면 저장 기능 회복 후 앱을 다시 시작하세요."
 msgstr ""
 
@@ -1435,7 +1459,7 @@ msgstr ""
 msgid "종류"
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:741
+#: src/dev_storage_manager/ui/main_window.py:743
 msgid "중단 · 완료 기록 미확정"
 msgstr ""
 
@@ -1447,7 +1471,7 @@ msgstr ""
 msgid "지원하지 않는 pyc 헤더입니다."
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:1193
+#: src/dev_storage_manager/ui/main_window.py:1195
 msgid "직접 만든 작은 임시 프로젝트로 링크 경계·보호 경로·휴지통 이동을 시험합니다.\n개인 프로젝트는 사용하지 않으며 시험 캐시가 Windows 휴지통에 남을 수 있습니다.\n시험 파일과 기록은 앱 데이터 폴더에 보관합니다."
 msgstr ""
 
@@ -1463,7 +1487,7 @@ msgstr ""
 msgid "직접 상위 pom.xml 확인; target 경로의 빌드 결과 후보"
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:744
+#: src/dev_storage_manager/ui/main_window.py:746
 msgid "진행 상태 미확정"
 msgstr ""
 
@@ -1487,15 +1511,19 @@ msgstr ""
 msgid "처음 사용"
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:1001
+#: src/dev_storage_manager/ui/main_window.py:1003
 msgid "최근 시도: "
+msgstr ""
+
+#: src/dev_storage_manager/ui/language_dialog.py:26
+msgid "취소"
 msgstr ""
 
 #: src/dev_storage_manager/ui/coverage_text.py:4 src/dev_storage_manager/ui/strings.py:4
 msgid "취소 · 부분 결과"
 msgstr ""
 
-#: src/dev_storage_manager/ui/directory_browser.py:174 src/dev_storage_manager/ui/main_window.py:1154
+#: src/dev_storage_manager/ui/directory_browser.py:174 src/dev_storage_manager/ui/main_window.py:1156
 msgid "취소 · 부분 목록"
 msgstr ""
 
@@ -1503,11 +1531,11 @@ msgstr ""
 msgid "취소 또는 원본 보호 점검 실패로 실행하지 않았습니다."
 msgstr ""
 
-#: src/dev_storage_manager/ui/directory_browser.py:148 src/dev_storage_manager/ui/main_window.py:925
+#: src/dev_storage_manager/ui/directory_browser.py:148 src/dev_storage_manager/ui/main_window.py:927
 msgid "취소 요청 중 · 현재 파일 시스템 호출이 끝나면 중단합니다."
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:1043
+#: src/dev_storage_manager/ui/main_window.py:1045
 msgid "취소·읽기 실패·제외 범위에 따라 일부 파일이 포함되지 않을 수 있습니다. 오류·제외 범위도 확인하세요."
 msgstr ""
 
@@ -1519,7 +1547,7 @@ msgstr ""
 msgid "캐시 내용 검증이 취소되었습니다."
 msgstr ""
 
-#: src/dev_storage_manager/ui/file_model.py:9 src/dev_storage_manager/ui/folder_model.py:13 src/dev_storage_manager/ui/main_window.py:461 src/dev_storage_manager/ui/main_window.py:548 src/dev_storage_manager/ui/review_dialog.py:50
+#: src/dev_storage_manager/ui/file_model.py:9 src/dev_storage_manager/ui/folder_model.py:13 src/dev_storage_manager/ui/main_window.py:463 src/dev_storage_manager/ui/main_window.py:550 src/dev_storage_manager/ui/review_dialog.py:50
 msgid "크기 (논리적)"
 msgstr ""
 
@@ -1527,15 +1555,15 @@ msgstr ""
 msgid "크기 차이"
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:625
+#: src/dev_storage_manager/ui/main_window.py:627
 msgid "큰 파일"
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:1395
+#: src/dev_storage_manager/ui/main_window.py:1401
 msgid "큰 파일 목록 CSV (*.csv)"
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:596
+#: src/dev_storage_manager/ui/main_window.py:598
 msgid "큰 파일 목록에서 이름·경로 검색"
 msgstr ""
 
@@ -1543,7 +1571,7 @@ msgstr ""
 msgid "큰 파일 전체 경로"
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:488
+#: src/dev_storage_manager/ui/main_window.py:490
 msgid "큰 파일 확인하기"
 msgstr ""
 
@@ -1555,7 +1583,7 @@ msgstr ""
 msgid "탐색 전 링크로 변경되어 제외"
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:1247
+#: src/dev_storage_manager/ui/main_window.py:1253
 msgid "통과"
 msgstr ""
 
@@ -1583,7 +1611,7 @@ msgstr ""
 msgid "파일 크기"
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:618 src/dev_storage_manager/ui/main_window.py:1038 src/dev_storage_manager/ui/main_window.py:1028
+#: src/dev_storage_manager/ui/main_window.py:620 src/dev_storage_manager/ui/main_window.py:1040 src/dev_storage_manager/ui/main_window.py:1030
 msgid "파일 행을 선택하면 전체 경로를 확인합니다. 파일 삭제 선택이 아닙니다."
 msgstr ""
 
@@ -1603,7 +1631,7 @@ msgstr ""
 msgid "패키지와 가상환경 내부에 사용자 수정이 있을 수 있습니다. 정리 미지원입니다."
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:575
+#: src/dev_storage_manager/ui/main_window.py:577
 msgid "페이지당 최대 200개입니다. 페이지 이동 중에는 새 작업이 앞에 끼어들지 않습니다. 최신 이력은 새로고침하세요."
 msgstr ""
 
@@ -1643,15 +1671,15 @@ msgstr ""
 msgid "폴더 (하위 포함)"
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:1417
+#: src/dev_storage_manager/ui/main_window.py:1423
 msgid "폴더 검색·정렬 중… 완료 전에는 이전 목록이 보일 수 있습니다."
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:431
+#: src/dev_storage_manager/ui/main_window.py:433
 msgid "폴더 경로 검색 (표시만 필터링)"
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:1160
+#: src/dev_storage_manager/ui/main_window.py:1162
 msgid "폴더 내용 읽기 실패: "
 msgstr ""
 
@@ -1663,7 +1691,7 @@ msgstr ""
 msgid "폴더 분석 범위"
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:1395
+#: src/dev_storage_manager/ui/main_window.py:1401
 msgid "폴더 요약 CSV (*.csv)"
 msgstr ""
 
@@ -1671,11 +1699,11 @@ msgstr ""
 msgid "폴더 추가"
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:1414
+#: src/dev_storage_manager/ui/main_window.py:1420
 msgid "폴더 표시 실패: "
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:1030 src/dev_storage_manager/ui/main_window.py:1099
+#: src/dev_storage_manager/ui/main_window.py:1032 src/dev_storage_manager/ui/main_window.py:1101
 msgid "폴더 행을 선택하면 전체 경로와 크기를 확인할 수 있습니다."
 msgstr ""
 
@@ -1687,7 +1715,7 @@ msgstr ""
 msgid "폴더를 읽지 못했습니다: "
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:522
+#: src/dev_storage_manager/ui/main_window.py:524
 msgid "폴더별 용량"
 msgstr ""
 
@@ -1695,11 +1723,15 @@ msgstr ""
 msgid "표시 {shown:,}개 / 확인한 목록 {total:,}개 · 검색은 실행 대상을 바꾸지 않습니다."
 msgstr ""
 
+#: src/dev_storage_manager/ui/language_dialog.py:10 src/dev_storage_manager/ui/main_window.py:354
+msgid "표시 언어 / Language"
+msgstr ""
+
 #: src/dev_storage_manager/platform/verification.py:33
 msgid "표시 자체 검사 · 실제 권한 거부 아님"
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:1154
+#: src/dev_storage_manager/ui/main_window.py:1156
 msgid "표시 한도 도달"
 msgstr ""
 
@@ -1711,23 +1743,23 @@ msgstr ""
 msgid "표시 한도 때문에 일부 항목은 표시하지 않았습니다."
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:1419
+#: src/dev_storage_manager/ui/main_window.py:1425
 msgid "표시된 폴더 {shown:,}개 / 분석된 폴더 {total:,}개"
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:1094
+#: src/dev_storage_manager/ui/main_window.py:1096
 msgid "표시한 크기/파일 수는 확인분이며 전체는 미확인입니다.\n"
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:1077
+#: src/dev_storage_manager/ui/main_window.py:1079
 msgid "표식 없음 · 일반 폴더로 분석"
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:330 src/dev_storage_manager/ui/main_window.py:675
+#: src/dev_storage_manager/ui/main_window.py:330 src/dev_storage_manager/ui/main_window.py:677
 msgid "프로그램 정보"
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:362
+#: src/dev_storage_manager/ui/main_window.py:364
 msgid "프로젝트"
 msgstr ""
 
@@ -1735,11 +1767,11 @@ msgstr ""
 msgid "프로젝트 경계 내부의 pyvenv.cfg 일반 파일 확인"
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:830
+#: src/dev_storage_manager/ui/main_window.py:832
 msgid "프로젝트 경로 오류"
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:1347
+#: src/dev_storage_manager/ui/main_window.py:1353
 msgid "프로젝트 기준 상대 경로를 한 줄에 하나씩 입력하세요.\n예: data 또는 assets/cache · 와일드카드 미지원\n변경 사항은 다음 분석부터 적용됩니다."
 msgstr ""
 
@@ -1771,11 +1803,11 @@ msgstr ""
 msgid "프로젝트 처음"
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:516 src/dev_storage_manager/ui/main_window.py:1098
+#: src/dev_storage_manager/ui/main_window.py:518 src/dev_storage_manager/ui/main_window.py:1100
 msgid "프로젝트 폴더 내용 보기"
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:823
+#: src/dev_storage_manager/ui/main_window.py:825
 msgid "프로젝트 폴더 선택"
 msgstr ""
 
@@ -1783,11 +1815,11 @@ msgstr ""
 msgid "프로젝트 표식과 pytest 캐시 구성 표식(CACHEDIR.TAG, README.md, .gitignore) 확인. 내용 검증 전 후보입니다."
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:505
+#: src/dev_storage_manager/ui/main_window.py:507
 msgid "프로젝트·정리 후보"
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:384
+#: src/dev_storage_manager/ui/main_window.py:386
 msgid "프로젝트를 선택하면 전체 경로가 표시됩니다. 선택해서 복사할 수 있습니다."
 msgstr ""
 
@@ -1819,10 +1851,6 @@ msgstr ""
 msgid "한 작업에서는 하나의 등록 프로젝트만 처리합니다."
 msgstr ""
 
-#: src/dev_storage_manager/platform/verification.py:35
-msgid "한글 시험 프로젝트"
-msgstr ""
-
 #: src/dev_storage_manager/ui/cleanup_result_dialog.py:21
 msgid "항목별 결과가 다름"
 msgstr ""
@@ -1839,7 +1867,7 @@ msgstr ""
 msgid "행을 선택하면 전체 경로와 정확한 크기를 확인할 수 있습니다."
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:512
+#: src/dev_storage_manager/ui/main_window.py:514
 msgid "행을 선택하면 전체 경로와 크기를 확인할 수 있습니다. 정리는 '프로젝트·정리 후보'에서 지원하는 후보만 검토하세요."
 msgstr ""
 
@@ -1875,23 +1903,23 @@ msgstr ""
 msgid "현재 후보를 완전하게 읽지 못했거나 링크/보호 항목이 있습니다."
 msgstr ""
 
-#: src/dev_storage_manager/ui/folder_model.py:56 src/dev_storage_manager/ui/main_window.py:1052
+#: src/dev_storage_manager/ui/folder_model.py:56 src/dev_storage_manager/ui/main_window.py:1054
 msgid "확인 {count:,}"
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:1059
+#: src/dev_storage_manager/ui/main_window.py:1061
 msgid "확인 {files:,}개 파일 · {size}"
 msgstr ""
 
-#: src/dev_storage_manager/ui/folder_model.py:52 src/dev_storage_manager/ui/main_window.py:1051 src/dev_storage_manager/ui/main_window.py:1070
+#: src/dev_storage_manager/ui/folder_model.py:52 src/dev_storage_manager/ui/main_window.py:1053 src/dev_storage_manager/ui/main_window.py:1072
 msgid "확인 {size}"
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:1239
+#: src/dev_storage_manager/ui/main_window.py:1245
 msgid "확인 항목"
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:1040
+#: src/dev_storage_manager/ui/main_window.py:1042
 msgid "확인된 {files:,}개 파일 중 큰 파일 {shown:,}개 · 최대 {limit:,}개만 보관합니다. 삭제 후보 판정이 아닙니다."
 msgstr ""
 
@@ -1899,7 +1927,7 @@ msgstr ""
 msgid "확인된 논리적 바이트"
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:397 src/dev_storage_manager/ui/main_window.py:362
+#: src/dev_storage_manager/ui/main_window.py:399 src/dev_storage_manager/ui/main_window.py:364
 msgid "확인된 논리적 크기"
 msgstr ""
 
@@ -1907,11 +1935,11 @@ msgstr ""
 msgid "확인된 논리적 파일 크기. 불완전·취소·제외 범위의 전체 크기는 미확인이며 압축/하드링크 등으로 실제 디스크 사용량과 다를 수 있습니다."
 msgstr ""
 
-#: src/dev_storage_manager/ui/folder_model.py:54 src/dev_storage_manager/ui/main_window.py:1053
+#: src/dev_storage_manager/ui/folder_model.py:54 src/dev_storage_manager/ui/main_window.py:1055
 msgid "확인된 논리적 합계: "
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:753
+#: src/dev_storage_manager/ui/main_window.py:755
 msgid "확인된 영수증 없음"
 msgstr ""
 
@@ -1919,7 +1947,7 @@ msgstr ""
 msgid "확인된 작업 ID 없음"
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:397
+#: src/dev_storage_manager/ui/main_window.py:399
 msgid "확인된 파일"
 msgstr ""
 
@@ -1931,11 +1959,11 @@ msgstr ""
 msgid "확인된 파일 수: {count:,} · 전체 파일 수는 미확인입니다."
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:1077
+#: src/dev_storage_manager/ui/main_window.py:1079
 msgid "확인된 프로젝트 표식\n"
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:1073
+#: src/dev_storage_manager/ui/main_window.py:1075
 msgid "확인된 합계: "
 msgstr ""
 
@@ -1943,7 +1971,7 @@ msgstr ""
 msgid "확인된 휴지통 영수증: "
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:1059
+#: src/dev_storage_manager/ui/main_window.py:1061
 msgid "확인분 없음"
 msgstr ""
 
@@ -1959,7 +1987,7 @@ msgstr ""
 msgid "환경 시험 기록 저장 실패: "
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:1205
+#: src/dev_storage_manager/ui/main_window.py:1207
 msgid "환경 시험 실패"
 msgstr ""
 
@@ -1967,11 +1995,11 @@ msgstr ""
 msgid "환경 시험이 취소되었습니다."
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:1226
+#: src/dev_storage_manager/ui/main_window.py:1232
 msgid "환경 점검 결과"
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:1229
+#: src/dev_storage_manager/ui/main_window.py:1235
 msgid "환경 점검 결과 · 부분 통과는 실행 승인 아님"
 msgstr ""
 
@@ -1983,11 +2011,11 @@ msgstr ""
 msgid "환경 점검을 완료하지 못했습니다: "
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:678
+#: src/dev_storage_manager/ui/main_window.py:680
 msgid "환경 정보 복사"
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:1171
+#: src/dev_storage_manager/ui/main_window.py:1173
 msgid "후보 검토 완료 · "
 msgstr ""
 
@@ -1999,7 +2027,7 @@ msgstr ""
 msgid "후보 표가 비었을 때"
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:475
+#: src/dev_storage_manager/ui/main_window.py:477
 msgid "후보 한 행을 클릭한 뒤 포함 파일을 검토하세요. 폴더 단위로 정리하며 개별 파일 삭제는 지원하지 않습니다."
 msgstr ""
 
@@ -2007,7 +2035,7 @@ msgstr ""
 msgid "후보가 없는 것은 선택하거나 정리할 항목이 없는 상태일 수 있습니다. 실제 프로젝트에 __pycache__를 직접 만들 필요는 없습니다.\n\n먼저 선택 경로와 분석 상태를 확인하세요. 취소/읽기 오류/제외 범위가 있으면 후보가 없다고 확정할 수 없습니다. '오류·제외 범위'를 확인하세요.\n\n분석이 완료되어도 현재 규칙에 맞는 캐시가 없을 수 있습니다. 폴더별 용량·큰 파일 목록은 계속 사용할 수 있습니다. 가상환경·node_modules·빌드 결과는 현재 검토 전용입니다.\n\n시험 프로젝트 기능은 선택한 상위 폴더에 새 이름의 폴더를 만들고, 고정 원본과 실제 Python 캐시를 생성하여 등록·분석합니다. 기존 파일을 복사하거나 덮어쓰지 않습니다. 시험 자료도 같은 보호/내용 검증/환경 시험/직접 확인을 적용하며 실행 자격을 우회하지 않습니다.\n\n생성 중 취소/실패하면 새 시험 폴더에 일부 자료가 남을 수 있으며 경로를 표시합니다. 자동 삭제하지 않습니다. 목록에서 제거해도 실제 폴더는 남습니다."
 msgstr ""
 
-#: src/dev_storage_manager/ui/main_window.py:472
+#: src/dev_storage_manager/ui/main_window.py:474
 msgid "후보를 선택하면 근거·주의사항·재생성 조건을 표시합니다. 실행 지원 여부는 환경 시험과 개별 검증에 따라 결정됩니다."
 msgstr ""
 
@@ -2023,7 +2051,7 @@ msgstr ""
 msgid "휴지통 이동 결과를 확인하지 못했습니다: "
 msgstr ""
 
-#: src/dev_storage_manager/ui/cleanup_result_dialog.py:19 src/dev_storage_manager/ui/main_window.py:740
+#: src/dev_storage_manager/ui/cleanup_result_dialog.py:19 src/dev_storage_manager/ui/main_window.py:742
 msgid "휴지통 이동 확인"
 msgstr ""
 
@@ -2043,7 +2071,7 @@ msgstr ""
 msgid "휴지통 작업 기록이 없습니다."
 msgstr ""
 
-#: src/dev_storage_manager/platform/recycle.py:81
+#: src/dev_storage_manager/platform/recycle.py:81 src/dev_storage_manager/platform/verification.py:146
 msgid "휴지통 작업 실패/취소 또는 결과 미확정"
 msgstr ""
 

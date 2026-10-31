@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "dev-storage-manager"
-version = "0.15.0"
+version = "0.16.0"
 description = "개발 프로젝트의 로컬 용량 분석과 검증 기반 캐시 정리"
 requires-python = ">=3.12,<3.13"
 dependencies = ["PySide6==6.10.2", "Send2Trash==2.1.0", "pywin32==311; sys_platform == 'win32'"]
@@ -14,6 +14,9 @@ dev-storage-manager = "dev_storage_manager.__main__:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]
+
+[tool.setuptools.package-data]
+dev_storage_manager = ["locales/*.json"]
 
 [tool.pytest.ini_options]
 pythonpath = ["src"]

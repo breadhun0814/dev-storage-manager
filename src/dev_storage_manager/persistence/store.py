@@ -19,9 +19,22 @@ class Store:
         self.db.execute("CREATE TABLE IF NOT EXISTS exclusions (project TEXT PRIMARY KEY, paths TEXT NOT NULL)")
         self.db.execute("CREATE TABLE IF NOT EXISTS previous_results (project TEXT PRIMARY KEY, result TEXT NOT NULL)")
         self.db.execute("CREATE TABLE IF NOT EXISTS file_samples (project TEXT PRIMARY KEY, analysis_hash TEXT NOT NULL, result TEXT NOT NULL)")
+        self.db.execute("CREATE TABLE IF NOT EXISTS app_settings (key TEXT PRIMARY KEY, value TEXT NOT NULL)")
         if recover_running:
             self.db.execute("UPDATE projects SET status='interrupted' WHERE status='running'")
         self.db.commit()
+
+    def language(self):
+        from dev_storage_manager.i18n import LANGUAGES
+        row = self.db.execute("SELECT value FROM app_settings WHERE key='language'").fetchone()
+        return row[0] if row and row[0] in LANGUAGES else "ko"
+
+    def set_language(self, language):
+        from dev_storage_manager.i18n import LANGUAGES
+        if language not in LANGUAGES:
+            raise ValueError("Unsupported language")
+        with self.db:
+            self.db.execute("INSERT INTO app_settings(key,value) VALUES ('language',?) ON CONFLICT(key) DO UPDATE SET value=excluded.value", (language,))
 
     def projects(self):
         return self.db.execute("SELECT path, updated, status FROM projects ORDER BY path").fetchall()

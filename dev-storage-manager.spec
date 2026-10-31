@@ -3,7 +3,7 @@ from pathlib import Path
 
 root = Path(SPECPATH)
 a = Analysis([str(root / 'app.py')], pathex=[str(root / 'src')],
-             binaries=[], datas=[],
+             binaries=[], datas=[(str(root / 'src/dev_storage_manager/locales'), 'dev_storage_manager/locales')],
              hiddenimports=['win32timezone', 'send2trash.win.IFileOperationProgressSink'],
              hookspath=[], hooksconfig={}, runtime_hooks=[],
              excludes=['pytest', 'PySide6.QtQml', 'PySide6.QtQuick', 'PySide6.QtWebEngineCore'],

@@ -50,9 +50,28 @@ def main():
             raise RuntimeError("배포 EXE의 비동기 폴더 검색·정렬 검사 실패")
         if verification.get("runtime", {}).get("app_version") != version or verification["runtime"].get("mode") != "frozen":
             raise RuntimeError("EXE의 실제 버전 또는 실행 방식이 패키징 대상과 다릅니다.")
+        language_checks = {}
+        expected = {"ko": "폴더 추가", "en": "Add folder", "ja": "フォルダーを追加", "zh_CN": "添加文件夹", "vi": "Thêm thư mục"}
+        for language, label in expected.items():
+            language_report = Path(temporary) / ("language-" + language + ".json")
+            checked = subprocess.run([str(built / "DevStorageManager.exe"), "--self-test-language", language, str(language_report)],
+                                     cwd=temporary, env=environment, timeout=30, creationflags=subprocess.CREATE_NO_WINDOW)
+            if checked.returncode or not language_report.is_file():
+                raise RuntimeError("배포 EXE 언어 시작 검사 실패: " + language)
+            data = json.loads(language_report.read_text(encoding="utf-8"))
+            if not data.get("passed") or data.get("language") != language or data.get("add_folder_label") != label:
+                raise RuntimeError("배포 EXE의 실제 표시 언어가 다릅니다: " + language)
+            if data.get("cleanup_enabled") is not False or data.get("qualified_kinds") != []:
+                raise RuntimeError("언어 검사 중 정리 실행이 활성화되었습니다.")
+            if data.get("runtime", {}).get("mode") != "frozen" or data["runtime"].get("app_version") != version:
+                raise RuntimeError("언어 검사 실행 방식 또는 버전이 다릅니다.")
+            if language != "ko" and data.get("english_fallback_sample") != "Recycling failed/cancelled or outcome unconfirmed":
+                raise RuntimeError("영어 대체 표시 검사 실패: " + language)
+            language_checks[language] = data
     shutil.copytree(built, output)
     (output / "STARTUP-CHECK.json").write_text(json.dumps(verification, indent=2), encoding="utf-8")
-    for name in ["QUICKSTART.md", "SUPPORT.md", "PROGRESS.md", "RECYCLE_VALIDATION.md", "DEPLOYMENT.md", "PERFORMANCE.md", "UI_DESIGN.md", "USER_VALIDATION.md", "VALIDATION.md", "RELEASE_AUDIT.md"]:
+    (output / "LANGUAGE-CHECKS.json").write_text(json.dumps(language_checks, indent=2, ensure_ascii=False), encoding="utf-8")
+    for name in ["QUICKSTART.md", "SUPPORT.md", "PROGRESS.md", "RECYCLE_VALIDATION.md", "DEPLOYMENT.md", "PERFORMANCE.md", "UI_DESIGN.md", "USER_VALIDATION.md", "VALIDATION.md", "RELEASE_AUDIT.md", "USER_GUIDE.md", "LOCALIZATION.md"]:
         shutil.copy2(root / "docs" / name, output / name)
     validation = root / "docs" / ("VALIDATION_" + version.replace(".", "") + ".md")
     if validation.is_file():

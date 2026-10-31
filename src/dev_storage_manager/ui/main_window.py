@@ -351,7 +351,9 @@ class Window(QMainWindow):
         self.demo_button.clicked.connect(self.start_demo_project)
         help_button = QPushButton(tr("사용 방법"))
         help_button.clicked.connect(self.show_usage_help)
-        for button in (help_button, section, self.demo_button, self.remove, self.exclude, self.compare_button, self.export_button, self.environment_button, report_button, about_button):
+        language_button = QPushButton(tr("표시 언어 / Language"))
+        language_button.clicked.connect(self.show_language_settings)
+        for button in (help_button, language_button, section, self.demo_button, self.remove, self.exclude, self.compare_button, self.export_button, self.environment_button, report_button, about_button):
             action = tools_menu.addAction(button.text())
             action.triggered.connect(lambda checked=False, b=button: b.click())
             self.tool_actions.append((button, action))
@@ -1219,6 +1221,10 @@ class Window(QMainWindow):
             self.display(self.current_result)
         self.summary.setText(capability.reason)
         self.show_environment_report()
+
+    def show_language_settings(self):
+        from dev_storage_manager.ui.language_dialog import LanguageDialog
+        LanguageDialog(self.store, self).exec()
 
     def show_environment_report(self):
         capability = self.last_capability

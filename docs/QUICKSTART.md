@@ -1,4 +1,6 @@
-# 개발 저장공간 관리자 0.15.0 시험 버전
+# 개발 저장공간 관리자 0.16.0 시험 버전
+
+**관리 · 도구 → 표시 언어 / Language**에서 한국어·영어·일본어·중국어 간체·베트남어를 저장한 뒤 앱을 다시 실행한다. 미번역 문구는 영어로 표시한다. 경로/기존 기록은 원문을 유지한다. 번역 범위는 LOCALIZATION.md 참고.
 
 폴더 검색은 입력 후 200ms 뒤 적용하며 검색/정렬 계산 중에는 이전 목록이 잠시 보일 수 있다. 상태 문구가 완료된 뒤 행을 선택해 전체 경로를 확인한다. 검색어나 정렬 변경은 이전 계산을 취소하며 분석 데이터/실제 파일/정리 계획은 바꾸지 않는다. 숫자 정렬은 확인된 바이트/파일 수 기준이므로 미확인 범위도 함께 확인한다.
 
@@ -76,4 +78,4 @@ ZIP 전체를 새 폴더에 압축 해제하고 `DevStorageManager.exe`를 더�
 - 복원은 Windows 휴지통에서 원래 위치와 시간을 확인해 직접 수행한다. 앱은 자동 복원이나 휴지통 비우기를 제공하지 않는다.
 - 이전 환경 점검 결과는 볼 수 있지만 재시작 후 실행 승인은 초기화된다. 점검 결과 복사는 직접 누를 때만 클립보드에 복사하며 전송하지 않는다.
 
-DB/기록은 `%LOCALAPPDATA%\DevStorageManager`, 환경 점검 기록은 그 아래 `environment-tests\last-result.json`이다. Windows 10, 모든 DPI 배율, 정상 Windows의 pytest 캐시 수동 복원은 아직 미검증이다. 자세한 범위는 SUPPORT.md, RELEASE_AUDIT.md와 VALIDATION_0150.md를 참고한다.
+DB/기록은 `%LOCALAPPDATA%\DevStorageManager`, 환경 점검 기록은 그 아래 `environment-tests\last-result.json`이다. Windows 10, 모든 DPI 배율, 정상 Windows의 pytest 캐시 수동 복원은 아직 미검증이다. 자세한 범위는 SUPPORT.md, RELEASE_AUDIT.md와 VALIDATION_0160.md를 참고한다.
