@@ -37,6 +37,12 @@ class Issue:
 
 
 @dataclass
+class FileSummary:
+    path: str
+    size: int
+
+
+@dataclass
 class Result:
     root: str
     status: str = "complete"
@@ -47,3 +53,9 @@ class Result:
     projects: list[ProjectEvidence] = field(default_factory=list)
     candidates: list[Candidate] = field(default_factory=list)
     exclusions: list[str] = field(default_factory=list)
+    started_at: str = ""
+    finished_at: str = ""
+    elapsed_seconds: float = 0.0
+    largest_files: list[FileSummary] = field(default_factory=list)
+    file_sample_available: bool = False
+    file_sample_limit: int = 500
